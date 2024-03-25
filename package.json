@@ -1,15 +1,17 @@
 {
   "name": "gitcopilot-server",
-  "displayName": "github copilot local server",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "gitcopilot-server",
+  "description": "Listen to the `http://localhost:4999/send` , and paste the received text into the input box of Github Copilot Chat",
+  "version": "0.0.3",
   "publisher": "Topppy",
+  "repository": "https://github.com/Topppy/gitcopilot-server",
   "engines": {
     "vscode": "^1.87.0"
   },
   "categories": [
     "Other"
   ],
+  "icon": "icon/icon.png",
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
